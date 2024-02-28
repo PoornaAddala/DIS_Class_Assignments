@@ -12,6 +12,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        // Initial array for sorting 
         int[] bubble_sort_numbers = {5, 72, 3, 14, 7, 1};
         Console.WriteLine("Here is the original array that will be used to execute the Bubble Sort Algorithm: ");
         for (int i = 0; i < bubble_sort_numbers.Length; i++)
